@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context = "com.zebra.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/mark_bottom_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_110px"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/height_28px"
+        android:paddingRight="@dimen/height_28px"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ImageView
+            android:id="@+id/mark_cancel_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/tab_icon_quxiao"
+            android:padding="@dimen/height_28px" />
+
+        <TextView
+            android:id="@+id/bottomTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/label"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/txt_size_34px" />
+
+        <ImageView
+            android:id="@+id/mark_ok_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/tab_icon_queding"
+            android:padding="@dimen/height_28px" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_area"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/height_110px"
+        android:background="@color/grace_black_c"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin_20px">
+
+        <TextView
+            android:id="@+id/sticker_btn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_icon_shuiying"
+            android:gravity="center"
+            android:text="@string/watermark"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_22px" />
+
+        <TextView
+            android:id="@+id/text_btn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_icon_biaoqian"
+            android:gravity="center"
+            android:text="@string/label"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_22px" />
+
+        <TextView
+            android:id="@+id/filter_btn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_icon_lvjing"
+            android:gravity="center"
+            android:text="@string/filter"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_22px" />
+    </LinearLayout>
+</LinearLayout>
+

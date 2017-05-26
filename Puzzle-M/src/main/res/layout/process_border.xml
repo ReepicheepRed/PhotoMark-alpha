@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/margin_40_px"
+    android:paddingRight="@dimen/margin_38_px"
+    android:background="@android:color/background_dark"
+    android:id="@+id/process_border_ll">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_56_px">
+
+        <TextView
+            android:text="@string/inner_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginRight="@dimen/margin_46_px"
+            android:textSize="@dimen/text_30_px"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_vertical" />
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/inner_sbs"
+            android:layout_weight="1"
+            android:max="52"
+            android:thumb="@drawable/handle"
+            android:progressDrawable="@drawable/progress_bg"
+            android:maxHeight="3dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_62_px">
+
+        <TextView
+            android:text="@string/outer_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViews"
+            android:layout_marginRight="@dimen/margin_46_px"
+            android:textSize="@dimen/text_30_px"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_vertical" />
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/outer_sbs"
+            android:layout_weight="1"
+            android:max="52"
+            android:progressDrawable="@drawable/progress_bg"
+            android:thumb="@drawable/handle"
+            android:maxHeight="3dp" />
+
+    </LinearLayout>
+</LinearLayout>

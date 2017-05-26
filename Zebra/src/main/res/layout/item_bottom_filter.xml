@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:padding="1dp"
+    tools:context="com.zebra.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/small_filter_container"
+        android:layout_width="@dimen/height_78px"
+        android:layout_height="@dimen/height_78px"
+        android:background="@drawable/bottom_tool"
+        android:gravity="center">
+
+        <jp.co.cyberagent.android.gpuimage.GPUImageView
+            android:id="@+id/small_filter"
+            android:layout_width="@dimen/height_78px"
+            android:layout_height="@dimen/height_78px"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/filter_name"
+        android:layout_width="@dimen/height_78px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/small_filter_container"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="无滤镜"
+        android:textColor="#bebfc1"
+        android:textSize="10sp"
+        android:visibility="visible"
+        tools:visibility="visible"/>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/actionbar_sns" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wancheng_icon"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="@dimen/margin_148_px"
+        android:layout_marginBottom="@dimen/height_90px" />
+
+    <Button
+        android:text="@string/back_first_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/complete_back_btn"
+        android:background="@drawable/fanhuishouye_btn"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:text="@string/immediate_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/complete_share_btn"
+        android:background="@drawable/lijifenxiang_btn"
+        android:textColor="@color/bar_red_c"
+        android:layout_marginTop="@dimen/gap_34_px" />
+</LinearLayout>

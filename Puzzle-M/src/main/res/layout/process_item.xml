@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaopo.flying.photolayout.ProcessActivity"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/style_tv"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/red_c"
+            android:textSize="@dimen/text_32_px"
+            android:drawableBottom="@drawable/biaoti_icon_xuanze"
+            android:drawablePadding="@dimen/margin_18_px"
+            android:padding="@dimen/margin_46_px" />
+
+        <TextView
+            android:text="@string/background"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/background_tv"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/gray_c"
+            android:textSize="@dimen/text_32_px"
+            android:drawablePadding="@dimen/margin_18_px"
+            android:padding="@dimen/margin_46_px" />
+
+        <TextView
+            android:text="@string/border"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/border_tv"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/gray_c"
+            android:textSize="@dimen/text_32_px"
+            android:drawablePadding="@dimen/margin_18_px"
+            android:padding="@dimen/margin_46_px" />
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/process_border"
+        android:visibility="gone"
+        tools:visibility="visible"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/process_item_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="@dimen/margin_30_px" />
+</LinearLayout>

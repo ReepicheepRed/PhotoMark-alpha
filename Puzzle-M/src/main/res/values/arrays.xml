@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name = "color_array_puzzle">
+        <item>@color/color_1c</item>
+        <item>@color/color_2c</item>
+        <item>@color/color_3c</item>
+        <item>@color/color_4c</item>
+        <item>@color/color_5c</item>
+        <item>@color/color_6c</item>
+
+        <item>@color/color_7c</item>
+        <item>@color/color_8c</item>
+        <item>@color/color_9c</item>
+        <item>@color/color_10c</item>
+        <item>@color/color_11c</item>
+        <item>@color/color_12c</item>
+    </array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jp.co.cyberagent.android.gpuimage.GPUImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mBatch_gpuImage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" />

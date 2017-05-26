@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/view_246_px"
+        android:layout_height="@dimen/view_246_px"
+        app:srcCompat="@drawable/xiangpianliebiao_img"
+        android:id="@+id/i_puzzle_iv" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/i_puzzle_cb"
+        android:button="@drawable/black_puzzle"
+        android:background="@null"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/margin_12px" />
+</FrameLayout>

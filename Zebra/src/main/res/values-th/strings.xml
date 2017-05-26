@@ -1,0 +1,78 @@
+﻿<resources>
+    <string name="app_name">PhotoMark</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="entry_name">
+        <item>ภาพถ่ายลายน้ำ</item>
+        <item>รูปแบบลายน้ำ</item>
+        <item>เลย์เอ้าท์</item>
+        <item>โปสเตอร์สินค้า</item>
+    </string-array>
+
+    <string-array name="sns_info">
+        <item>ชื่อ-นามสกุล</item>
+        <item>Facebook</item>
+        <item>Line</item>
+        <item>Instagram</item>
+        <item>หมวดหมู่สินค้า</item>
+    </string-array>
+
+    <string-array name="improve_tip">
+        <item>กรุณาพิมพ์ชื่อของคุณ</item>
+        <item>กรุณากรอกเลขบัญชี</item>
+    </string-array>
+
+    <string name="edit_tip">แก้ไขข้อความ</string>
+
+    <string name="login_title">ต้อนรับเข้าสู่ระบบ</string>
+    <string name="phone">เบอร์โทรศัพท์</string>
+    <string name="verify_code">รหัสยืนยัน</string>
+    <string name="obtain_verify_code">ตรวจสอบรหัสยืนยัน</string>
+    <string name="login">เข้าสู่ระบบ</string>
+    <string name="complete">เสร็จสิ้น</string>
+
+    <string name="login_exit">ออกจากระบบ</string>
+    <string name="sns">ข้อมูลของฉัน</string>
+    <string name="photo">ถ่ายภาพ</string>
+    <string name="album">รูปภาพ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="category">ประเภทสินค้า</string>
+    <string name="improveInfo">ปรับปรุงข้อมูล</string>
+
+    <string name="watermark">ลายน้ำ</string>
+    <string name="label">ข้อความ</string>
+    <string name="filter">กรอบ</string>
+
+    <string name="title">หัวข้อ</string>
+    <string name="title_hint">ป้อนชื่อ</string>
+    <string name="back">กลับ</string>
+    <string name="preview">ตัวอย่าง</string>
+    <string name="generate">สร้าง</string>
+    <string name="save">บันทึก</string>
+    <string name="add_label">เพิ่มเติม</string>
+
+    <string name="processing">การประมวลผลของภาพ&#8230;</string>
+    <string name="process_error">ข้อผิดพลาดของการประมวลผลภาพ，กรุณาออกจากกล้องถ่ายรูปและลองอีกครั้ง</string>
+
+    <string name="simple_puzzle">เลย์เอ้าท์</string>
+    <string name="begin_making">เริ่มทำ</string>
+    <string name="selected_picture">มีการเพิ่ม%1$dรูปภาพ</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+
+    <string name="poster_tab_title">%1$dรูป</string>
+    <string name="product_poster">โปสเตอร์สินค้า</string>
+    <string name="text_typeface">แบบอักษร</string>
+    <string name="text_color">สี</string>
+    <string name="download">ดาวน์โหลด</string>
+
+    <string name="back_first_page">กลับหน้าหลัก/</string>
+    <string name="immediate_share">แชร์ทันที</string>
+    <string name="save_share">บันทึก/แชร์</string>
+
+    <string name="select_poster">เลือกโปสเตอร์</string>
+    <string name="template">รูปแบบ</string>
+
+    <string name="add_mark">เพิ่มเติม</string>
+</resources>

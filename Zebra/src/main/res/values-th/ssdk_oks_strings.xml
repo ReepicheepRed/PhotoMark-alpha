@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ssdk_oks_share">แชร์</string>
+    <string name="ssdk_oks_sharing">แชร์เป็นพื้นหลัง…</string>
+    <string name="ssdk_oks_share_failed">การแช์ล้มเหลว</string>
+    <string name="ssdk_oks_share_completed">การแชร์เสร็จสิ้น</string>
+    <string name="ssdk_oks_share_canceled">การแชร์ถูกยกเลิก</string>
+    <string name="ssdk_oks_cancel">ยกเลิก</string>
+    <string name="ssdk_oks_multi_share">แชร์รูปภาพ</string>
+    <string name="ssdk_oks_confirm">ตกลง</string>
+    <string name="ssdk_oks_contacts">รายชื่อผู้ติดต่อ</string>
+    <string name="ssdk_oks_pull_to_refresh">เลื่อนลงเพื่อรีเฟรช</string>
+	<string name="ssdk_oks_release_to_refresh">รอเพื่อรีเฟรช</string>
+	<string name="ssdk_oks_refreshing">กำลังรีเฟรช…</string>
+</resources>

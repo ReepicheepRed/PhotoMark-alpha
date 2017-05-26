@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bar_black_c"
+    android:orientation="vertical" >
+
+    <com.customview.CommonTitleBar
+        android:id="@+id/title_layout"
+        style="@style/head_default"
+        app:leftBtnIcon="@drawable/back"
+        app:leftBtnTxt="@string/back"
+        app:rightBtnTxt="@string/save"/>
+
+    <LinearLayout
+        android:id="@+id/main_area"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/drawing_view_container"
+            android:layout_width="@dimen/height_720_px"
+            android:layout_height="@dimen/height_720_px"
+            android:orientation="vertical" >
+
+            <jp.co.cyberagent.android.gpuimage.GPUImageView
+                android:id="@+id/gpuimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"/>
+        <LinearLayout
+            android:id="@+id/toolbar_area"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_144_px"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_16px">
+
+            <it.sephiroth.android.library.widget.HListView
+                android:id="@+id/list_tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="always"
+                app:hlv_dividerWidth="@dimen/margin_26px"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/mark_bottom_label" />
+
+</LinearLayout>

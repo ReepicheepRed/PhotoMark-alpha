@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/margin_20px"
+    android:paddingRight="@dimen/margin_20px"
+    android:paddingBottom="@dimen/height_24px">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/pop_avatar_ll">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bacground_pop_avatar">
+
+            <TextView
+                android:text="@string/photo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_90px"
+                android:id="@+id/pop_avatar_photo"
+                android:gravity="center"
+                android:textSize="@dimen/txt_size_32px"
+                android:textColor="@color/text_3_c" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider_ea_c"/>
+
+            <TextView
+                android:text="@string/album"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_90px"
+                android:id="@+id/pop_avatar_album"
+                android:gravity="center"
+                android:textColor="@color/text_3_c"
+                android:textSize="@dimen/txt_size_32px" />
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_90px"
+            android:id="@+id/pop_avatar_cancel"
+            android:gravity="center"
+            android:background="@drawable/bacground_pop_avatar"
+            android:layout_marginTop="@dimen/margin_20px"
+            android:textSize="@dimen/txt_size_32px"
+            android:textColor="@color/light_blue" />
+    </LinearLayout>
+</FrameLayout>

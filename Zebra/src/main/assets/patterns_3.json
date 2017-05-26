@@ -1,0 +1,277 @@
+ [
+  {
+  "category": "3",
+  "items": [
+            {
+            "num": "1",
+            "size": "{1082,1500}",
+            "layout":[
+                      ["{0,295}","{226,224}","{226,614}","{0,683}"],
+                      ["{229,224}","{456,153}","{456,347}","{229,417}"],
+                      ["{229,420}","{456,350}","{456,541}","{229,610}"]
+                      ],
+              "editText":[
+                {
+                  "width": 204,
+                  "height": -2,
+                  "layoutGravity": -1,
+                  "gravity": 0,
+                  "text": "mytext",
+                  "topMargin": 36,
+                  "bottomMargin": 0,
+                  "leftMargin": 24,
+                  "rightMargin": 0,
+                  "singleLine": true,
+                  "textSize": 60,
+                  "textColor": "#fd2d3b",
+                  "textFont": "微软雅黑",
+                  "position": [[0,0],[0,0],[0,0],[0,0]]
+                },
+                {
+                  "width": 194,
+                  "height": -2,
+                  "layoutGravity": -1,
+                  "gravity": 0,
+                  "text": "mytext",
+                  "topMargin": 102,
+                  "bottomMargin": 0,
+                  "leftMargin": 24,
+                  "rightMargin": 0,
+                  "singleLine": true,
+                  "textSize": 46,
+                  "textColor": "#333333",
+                  "textFont": "微软雅黑",
+                  "position": [[0,0],[0,0],[0,0],[0,0]]
+                },
+                {
+                  "width": 176,
+                  "height": -2,
+                  "layoutGravity": -1,
+                  "gravity": 0,
+                  "text": "mytext",
+                  "topMargin": 172,
+                  "bottomMargin": 0,
+                  "leftMargin": 34,
+                  "rightMargin": 0,
+                  "textSize": 15,
+                  "textColor": "#ffffff",
+                  "textFont": "微软雅黑",
+                  "position": [[0,0],[0,0],[0,0],[0,0]]
+                },
+                {
+                  "width": 286,
+                  "height": -2,
+                  "layoutGravity": 0,
+                  "gravity": 0,
+                  "text": "mytext",
+                  "topMargin": 692,
+                  "bottomMargin": 0,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "textSize": 27,
+                  "textColor": "#666666",
+                  "textFont": "微软雅黑",
+                  "position": [[0,0],[0,0],[0,0],[0,0]]
+                }
+              ]
+            },
+            {
+            "num": "2",
+            "size": "{1082,1500}",
+            "layout":[
+                      ["{0,0}","{456,0}","{456,246}","{0,246}"],
+                      ["{11,296}","{222,296}","{222,566}","{11,566}"],
+                      ["{235,296}","{444,296}","{445,566}","{235,566}"]
+                      ],
+            "editText":[
+              {
+                "width": 204,
+                "height": -2,
+                "layoutGravity": 0,
+                "gravity": 0,
+                "text": "mytext",
+                "topMargin": 70,
+                "bottomMargin": 0,
+                "leftMargin": 0,
+                "rightMargin": 0,
+                "textSize": 24,
+                "textColor": "#333333",
+                "textFont": "微软雅黑",
+                "position": [[0,0],[0,0],[0,0],[0,0]]
+              },
+              {
+                "width": 160,
+                "height": -2,
+                "layoutGravity": 0,
+                "gravity": 0,
+                "text": "mytext",
+                "topMargin": 114,
+                "bottomMargin": 0,
+                "leftMargin": 0,
+                "rightMargin": 0,
+                "textSize": 20,
+                "textColor": "#666666",
+                "textFont": "微软雅黑",
+                "position": [[0,0],[0,0],[0,0],[0,0]]
+              },
+              {
+                "width": 204,
+                "height": -2,
+                "layoutGravity": 0,
+                "gravity": 0,
+                "text": "mytext",
+                "topMargin": 160,
+                "bottomMargin": 0,
+                "leftMargin": 0,
+                "rightMargin": 0,
+                "textSize": 16,
+                "textColor": "#333333",
+                "textFont": "微软雅黑",
+                "position": [[0,0],[0,0],[0,0],[0,0]]
+              },
+              {
+                "width": 202,
+                "height": -2,
+                "layoutGravity": -1,
+                "gravity": -1,
+                "text": "mytext",
+                "topMargin": 584,
+                "bottomMargin": 0,
+                "leftMargin": 16,
+                "rightMargin": 0,
+                "textSize": 26,
+                "textColor": "#2c2c2c",
+                "textFont": "微软雅黑",
+                "position": [[0,0],[0,0],[0,0],[0,0]]
+              },
+              {
+                "width": 290,
+                "height": -2,
+                "layoutGravity": -1,
+                "gravity": -1,
+                "text": "mytext",
+                "topMargin": 626,
+                "bottomMargin": 0,
+                "leftMargin": 16,
+                "rightMargin": 0,
+                "textSize": 16,
+                "textColor": "#666666",
+                "textFont": "微软雅黑",
+                "position": [[0,0],[0,0],[0,0],[0,0]]
+              },
+              {
+                "width": 428,
+                "height": -2,
+                "layoutGravity": -1,
+                "gravity": -1,
+                "text": "mytext",
+                "topMargin": 654,
+                "bottomMargin": 0,
+                "leftMargin": 16,
+                "rightMargin": 0,
+                "textSize": 20,
+                "textColor": "#666666",
+                "textFont": "微软雅黑",
+                "position": [[0,0],[0,0],[0,0],[0,0]]
+              }
+            ]
+            },
+            {
+              "num": "3",
+              "size": "{456,456}",
+              "layout":[
+                        ["{8,0}","{164,0}","{164,322}","{8,380}"],
+                        ["{170,0}","{318,0}","{318,262}","{170,322}"],
+                        ["{320,0}","{448,0}","{448,220}","{320,262}"]
+                        ],
+              "editText":[
+                {
+                  "width": 250,
+                  "height": -2,
+                  "layoutGravity": 1,
+                  "gravity": 0,
+                  "text": "mytext",
+                  "topMargin": 368,
+                  "bottomMargin": 0,
+                  "leftMargin": 0,
+                  "rightMargin": 22,
+                  "textSize": 14,
+                  "textColor": "#333333",
+                  "textFont": "微软雅黑",
+                  "position": [[0,0],[0,0],[0,0],[0,0]]
+                }
+              ]
+            },
+            {
+            "num": "4",
+            "size": "{1082,1500}",
+            "layout":[
+                      ["{174,62}","{428,62}","{428,245}","{174,244}"],
+                      ["{28,270}","{428,270}","{428,543}","{28,543}"],
+                      ["{28,570}","{428,569}","{428,752}","{28,752}"]
+                      ],
+              "editText":[
+                {
+                  "width": 114,
+                  "height": -2,
+                  "layoutGravity": -1,
+                  "gravity": -1,
+                  "text": "mytext",
+                  "topMargin": 138,
+                  "bottomMargin": 0,
+                  "leftMargin": 40,
+                  "rightMargin": 0,
+                  "singleLine": true,
+                  "textSize": 30,
+                  "textColor": "#303030",
+                  "textFont": "微软雅黑",
+                  "position": [[0,0],[0,0],[0,0],[0,0]]
+                },
+                {
+                  "width": 114,
+                  "height": -2,
+                  "layoutGravity": -1,
+                  "gravity": -1,
+                  "text": "mytext",
+                  "topMargin": 178,
+                  "bottomMargin": 0,
+                  "leftMargin": 40,
+                  "rightMargin": 0,
+                  "singleLine": true,
+                  "textSize": 44,
+                  "textColor": "#303030",
+                  "textFont": "微软雅黑",
+                  "position": [[0,0],[0,0],[0,0],[0,0]]
+                }
+              ]
+            },
+    {
+      "num": "5",
+      "size": "{456,456}",
+      "layout":[
+        ["{232,9}","{396,9}","{396,180}","{232,180}"],
+        ["{60,183}","{226,183}","{226,352}","{60,362}"],
+        ["{233,183}","{408,183}","{408,359}","{233,358}"]
+      ],
+      "editText":[
+        {
+          "width": 136,
+          "height": -2,
+          "layoutGravity": -1,
+          "gravity": 0,
+          "text": "mytext",
+          "topMargin": 112,
+          "bottomMargin": 0,
+          "leftMargin": 80,
+          "rightMargin": 0,
+          "singleLine": true,
+          "textSize": 22,
+          "textColor": "#dd1818",
+          "textFont": "微软雅黑",
+          "position": [[0,0],[0,0],[0,0],[0,0]]
+        }
+      ]
+    }
+            ]
+  }
+  ]

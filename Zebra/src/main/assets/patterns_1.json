@@ -1,0 +1,344 @@
+[
+    {
+        "category": "1",
+        "items": [
+            {
+                "num": "1", 
+                "size": "{456,812}",
+                "layout":[
+                  ["{24,338}","{432,338}","{432,746}","{24,746}"]
+                ],
+                "editText":[
+                    {
+                        "width": 130,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 54,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "singleLine": true,
+                        "text": "text",
+                        "textSize": 48,
+                        "textColor": "#fd2d3b",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 330,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 154,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 30,
+                        "textColor": "#6d401c",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 320,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 242,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 18,
+                        "textColor": "#6d401c",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 152,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 312,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 16,
+                        "textColor": "#fd2d3b",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    }
+                ]
+            },
+            {
+                "num": "2",
+                "size": "{456,812}",
+                "layout":[
+                  ["{78,88}","{377,88}","{377,364}","{78,364}"]
+                ],
+                "editText":[
+                    {
+                        "width": 304,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 524,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 18,
+                        "textColor": "#d75391",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 358,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 600,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 22,
+                        "textColor": "#ffffff",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 378,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 660,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 16,
+                        "textColor": "#ffffff",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    }
+                ]
+            },
+            {
+                "num": "3",
+                "size": "{456,812}",
+                "layout":[
+                  ["{18,210}","{436,210}","{436,637}","{18,637}"]
+                ],
+                "editText":[
+                    {
+                        "width": 298,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 88,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 32,
+                        "textColor": "#b08804",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 270,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 124,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 20,
+                        "textColor": "#6c6c6c",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 106,
+                        "height": -2,
+                        "layoutGravity": -1,
+                        "gravity": 0,
+                        "topMargin": 670,
+                        "bottomMargin": 0,
+                        "leftMargin": 14,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 20,
+                        "textColor": "#212121",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 106,
+                        "height": -2,
+                        "layoutGravity": -1,
+                        "gravity": 0,
+                        "topMargin": 706,
+                        "bottomMargin": 0,
+                        "leftMargin": 14,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 14,
+                        "textColor": "#7b7b7b",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 106,
+                        "height": -2,
+                        "layoutGravity": -1,
+                        "gravity": 0,
+                        "topMargin": 670,
+                        "bottomMargin": 0,
+                        "leftMargin": 120,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 20,
+                        "textColor": "#212121",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 106,
+                        "height": -2,
+                        "layoutGravity": -1,
+                        "gravity": 0,
+                        "topMargin": 706,
+                        "bottomMargin": 0,
+                        "leftMargin": 120,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 14,
+                        "textColor": "#7b7b7b",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 106,
+                        "height": -2,
+                        "layoutGravity": -1,
+                        "gravity": 0,
+                        "topMargin": 670,
+                        "bottomMargin": 0,
+                        "leftMargin": 236,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 20,
+                        "textColor": "#212121",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 106,
+                        "height": -2,
+                        "layoutGravity": -1,
+                        "gravity": 0,
+                        "topMargin": 706,
+                        "bottomMargin": 0,
+                        "leftMargin": 236,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 14,
+                        "textColor": "#7b7b7b",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 106,
+                        "height": -2,
+                        "layoutGravity": -1,
+                        "gravity": 0,
+                        "topMargin": 670,
+                        "bottomMargin": 0,
+                        "leftMargin": 346,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 20,
+                        "textColor": "#212121",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 106,
+                        "height": -2,
+                        "layoutGravity": -1,
+                        "gravity": 0,
+                        "topMargin": 706,
+                        "bottomMargin": 0,
+                        "leftMargin": 346,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 14,
+                        "textColor": "#7b7b7b",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    }
+                ]
+            },
+            {
+                "num": "4",
+                "size": "{456,812}",
+                "layout":[
+                  ["{52,357}","{404,357}","{404,746}","{52,745}"]
+                ],
+                "editText":[
+                    {
+                        "width": 280,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 28,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 64,
+                        "textColor": "#ffe240",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 112,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 160,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 30,
+                        "textColor": "#1b42a1",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    },
+                    {
+                        "width": 352,
+                        "height": -2,
+                        "layoutGravity": 0,
+                        "gravity": 0,
+                        "topMargin": 252,
+                        "bottomMargin": 0,
+                        "leftMargin": 0,
+                        "rightMargin": 0,
+                        "text": "text",
+                        "textSize": 20,
+                        "textColor": "#ffe240",
+                        "textFont": "微软雅黑",
+                        "position": [[0,0],[0,0],[0,0],[0,0]]
+                    }
+                ]
+            }
+        ]
+    }
+]

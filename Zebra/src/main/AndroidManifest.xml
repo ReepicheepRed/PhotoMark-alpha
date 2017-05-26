@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zebra">
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <!-- shareSDK Start-->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- ShareSDK End-->
+
+    <application
+        android:name="com.sticker.App"
+        android:allowBackup="true"
+        android:icon="@drawable/photomark_logo"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:replace="icon,label,theme"
+        android:anyDensity="true">
+
+        <!-- Talking Data Analytics-->
+        <meta-data android:name="TD_APP_ID" android:value="FC5FC8C117FC47B9A127249D45507438" />
+        <meta-data android:name="TD_CHANNEL_ID" android:value="play.google.com" />
+
+        <!-- ShareSDK-->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <!-- poster mark -->
+        <activity android:name="com.coolstar.makeposter.view.mainview.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PostAppTheme" />
+        <activity android:name="com.coolstar.makeposter.view.posterview.PosterActivity"
+            android:launchMode="singleTask"
+            android:configChanges="keyboard|orientation|locale"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/PostAppTheme" />
+
+        <!-- load image in local-->
+        <activity
+            android:name="android.gril.activity.AlbumsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            >
+        </activity>
+        <activity
+            android:name="android.gril.activity.AlbumItemActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            >
+        </activity>
+        <activity
+            android:name="android.gril.activity.SelectedImagesActivity"
+            android:label="@string/app_name"
+            >
+        </activity>
+        <activity
+            android:name="android.gril.GridImage"
+            android:label="@string/app_name"
+            >
+        </activity>
+
+        <!-- puzzle-->
+        <activity android:name="com.xiaopo.flying.photolayout.MainActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.xiaopo.flying.photolayout.ProcessActivity"
+            android:label="@string/title_activity_process"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.xiaopo.flying.photolayout.PlaygroundActivity"
+            android:theme="@style/AppTheme"/>
+
+        <!-- Sticker -->
+        <activity
+            android:name="com.sticker.app.ui.MainActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.sticker.app.camera.ui.CameraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity
+            android:name="com.sticker.app.camera.ui.CropPhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity
+            android:name="com.sticker.app.camera.ui.AlbumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity
+            android:name="com.sticker.app.camera.ui.PhotoProcessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:name="com.sticker.app.ui.EditTextActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+
+        <!-- Zebra -->
+        <activity
+            android:name="com.zebra.MainActivity"
+            android:label="@string/app_name">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name="com.zebra.guide.SplashActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zebra.guide.GuideActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:name="com.zebra.login.LoginActivity"/>
+        <activity android:name="com.zebra.MarkActivity"/>
+        <activity android:name="com.zebra.MarkEditActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name="com.zebra.MarkResActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:name="com.zebra.MarkBatchActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+        <activity android:name="com.zebra.SnsActivity"/>
+        <activity android:name="com.zebra.SnsImproveActivity" />
+        <activity android:name="com.zebra.SnsImproveChildActivity" />
+        <activity android:name="com.zebra.SnsCategoryActivity" />
+        <activity android:name="com.zebra.MarkPosterActivity" />
+        <activity android:name="postermaster.MainActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" android:windowSoftInputMode="adjustPan"  />
+        <activity android:name="com.zebra.SaveCompleteActivity" />
+        <activity android:name="com.zebra.WebActivity" />
+    </application>
+
+
+</manifest>

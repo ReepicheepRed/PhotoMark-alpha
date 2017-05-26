@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/bg_f5_c">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/actionbar_base" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_622_px"
+        android:background="@drawable/bianjitupian_bg" >
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:srcCompat="@drawable/shuiyin1_bg_2x"-->
+            <!--android:id="@+id/mEdit_iv"-->
+            <!--android:layout_gravity="center" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/shuiyin1_bg_2x"
+            android:id="@+id/mEdit_iv"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+    <TextView
+        android:text="@string/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mEdit_title"
+        android:textColor="@color/text_3_c"
+        android:textSize="@dimen/txt_size_26px"
+        android:paddingBottom="@dimen/margin_16px"
+        android:paddingLeft="@dimen/height_28px"
+        android:paddingTop="@dimen/margin_40px" />
+
+    <EditText
+        android:id="@+id/mEdit_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_100px"
+        android:background="@android:color/white"
+        android:hint="@string/title_hint"
+        android:inputType="text"
+        android:paddingLeft="@dimen/height_28px"
+        android:textColorHint="@color/text_9_c"
+        android:textSize="@dimen/txt_size_32px"/>
+
+</LinearLayout>

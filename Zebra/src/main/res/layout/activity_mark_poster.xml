@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bar_black_c">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/actionbar_base" />
+
+    <android.support.design.widget.TabLayout
+        style="@style/CustomTabLayout"
+        android:id="@+id/mPoster_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_96_px"
+        app:tabMode="scrollable"
+        android:visibility="gone"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mPoster_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

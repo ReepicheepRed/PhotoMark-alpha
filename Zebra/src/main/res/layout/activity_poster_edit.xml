@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zebra.MainActivity"
+    android:background="@color/bar_black_c"
+    android:id="@+id/poster_edit_rl">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/actionbar_base"/>
+
+    <com.martin.poster.PosterView
+        android:id="@+id/posterView"
+        android:layout_width="@dimen/view_456_px"
+        android:layout_height="@dimen/view_812_px"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true" />
+
+    <com.martin.poster.PosterView
+        android:id="@+id/pView_square"
+        android:layout_width="@dimen/view_812_px"
+        android:layout_height="@dimen/view_812_px"
+        android:layout_marginTop="70dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <com.coolstar.makeposter.widget.textposter.TextDrawer
+        android:id="@+id/poster_text_drawer"
+        android:layout_width="@dimen/view_456_px"
+        android:layout_height="@dimen/view_812_px"
+        android:layout_marginTop="70dp"
+        android:clickable="false"
+        android:longClickable="false"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_300px"
+        layout="@layout/poster_template"
+        android:layout_alignParentBottom="true"
+        />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_720_px"
+        layout="@layout/poster_text_edit"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-360dp"/>
+
+
+</RelativeLayout>

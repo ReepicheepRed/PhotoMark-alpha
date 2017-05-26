@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_improve_rl">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/actionbar_sns" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tianxieziliao_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_tianjiaxiangpian"
+                android:id="@+id/improve_avatar_iv"
+                android:background="@drawable/bg_tianjiaxiangpian"
+                android:layout_gravity="center"
+                android:padding="@dimen/gap_58_px" />
+
+        </FrameLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/improve_rv" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="@string/complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/improve_complete_btn"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/_btn_denglu"
+        android:textSize="@dimen/txt_size_32px"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

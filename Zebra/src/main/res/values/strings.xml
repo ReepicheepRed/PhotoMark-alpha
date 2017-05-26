@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">PhotoMark</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="entry_name">
+        <item>拍照水印</item>
+        <item>批量水印</item>
+        <item>简洁拼图</item>
+        <item>商品海报</item>
+    </string-array>
+
+    <string-array name="sns_info">
+        <item>姓名</item>
+        <item>Facebook</item>
+        <item>Line</item>
+        <item>Instagram</item>
+        <item>所卖产品类别</item>
+    </string-array>
+
+    <string-array name="improve_tip">
+        <item>请输入姓名</item>
+        <item>请输入%1$s账号</item>
+    </string-array>
+
+    <string name="edit_tip">编辑文字</string>
+
+    <string name="login_title">欢迎登录</string>
+    <string name="phone">手机号</string>
+    <string name="verify_code">验证码</string>
+    <string name="obtain_verify_code">获取验证码</string>
+    <string name="login">登录</string>
+    <string name="complete">完成</string>
+
+    <string name="login_exit">退出登录</string>
+    <string name="sns">个人中心</string>
+    <string name="photo">拍照</string>
+    <string name="album">相册</string>
+    <string name="cancel">取消</string>
+    <string name="category">产品类别</string>
+    <string name="improveInfo">完善资料</string>
+
+    <string name="watermark">水印</string>
+    <string name="label">标签</string>
+    <string name="filter">滤镜</string>
+
+    <string name="title">标题</string>
+    <string name="title_hint">输入标题</string>
+    <string name="back">返回</string>
+    <string name="preview">预览</string>
+    <string name="generate">生成</string>
+    <string name="save">保存</string>
+    <string name="add_label">添加标签</string>
+
+    <string name="processing">图片处理中&#8230;</string>
+    <string name="process_error">图片处理错误，请退出相机并重试</string>
+
+    <string name="simple_puzzle">简洁拼图</string>
+    <string name="begin_making">开始制作</string>
+    <string name="selected_picture">已经添加了%1$d了照片</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+
+    <string name="poster_tab_title">%1$d图</string>
+    <string name="product_poster">产品海报</string>
+    <string name="text_typeface">字体</string>
+    <string name="text_color">颜色</string>
+    <string name="download">下载</string>
+
+    <string name="back_first_page">返回首页</string>
+    <string name="immediate_share">立即分享</string>
+    <string name="save_share">保存/分享</string>
+
+    <string name="select_poster">选择海报</string>
+    <string name="template">模板</string>
+
+    <string name="add_mark">添加水印</string>
+</resources>

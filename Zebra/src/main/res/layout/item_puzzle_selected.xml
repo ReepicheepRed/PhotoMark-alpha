@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/height_150px"
+        android:layout_height="@dimen/height_150px"
+        app:srcCompat="@drawable/yixuanze_img"
+        android:id="@+id/i_puzzle_selected_iv" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/xiangpian_icon_quxiao"
+        android:id="@+id/i_puzzle_selected_cancel_iv"
+        android:layout_gravity="right"
+        android:padding="@dimen/margin_16px"
+        android:layout_marginTop="-16dp"
+        android:layout_marginRight="-16dp" />
+</FrameLayout>

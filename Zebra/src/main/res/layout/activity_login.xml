@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <import type="com.zebra.bean.Login"/>
+        <import type="com.zebra.login.LoginActivity"/>
+        <variable name="login" type="Login"/>
+        <variable name="loginActivity" type="LoginActivity"/>
+    </data>
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/actionbar_sns" />
+
+    <TextView
+        android:text="@string/login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textSize="@dimen/text_54_px"
+        android:layout_marginTop="@dimen/gap_194_px"
+        android:layout_marginBottom="@dimen/gap_86_px"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/login_phone_et"
+        android:layout_marginLeft="@dimen/gap_66_px"
+        android:layout_marginRight="@dimen/gap_66_px"
+        android:hint="@string/phone"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/color_white_point_5"
+        android:textSize="@dimen/txt_size_30px"
+        android:background="@null"
+        android:paddingBottom="@dimen/gap_34_px"
+        android:paddingTop="@dimen/gap_34_px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_1_px"
+        android:background="@color/color_white_point_4"
+        android:layout_marginLeft="@dimen/gap_66_px"
+        android:layout_marginRight="@dimen/gap_66_px"
+        android:layout_marginBottom="@dimen/gap_38_px" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/gap_66_px"
+        android:paddingRight="@dimen/gap_66_px">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/login_verify_code_et"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/gap_66_px"
+            android:hint="@string/verify_code"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/color_white_point_5"
+            android:textSize="@dimen/txt_size_30px"
+            android:background="@null"
+            android:layout_toLeftOf="@+id/login_obtain_verify_code_tv"
+            android:paddingBottom="@dimen/gap_34_px"
+            android:paddingTop="@dimen/gap_34_px" />
+
+        <TextView
+            android:text="@string/obtain_verify_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_obtain_verify_code_tv"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_yanzhengma"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/txt_size_24px"
+            android:onClick="@{loginActivity.bindClick}"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_1_px"
+        android:background="@color/color_white_point_4"
+        android:layout_marginLeft="@dimen/gap_66_px"
+        android:layout_marginRight="@dimen/gap_66_px"
+        android:layout_marginBottom="@dimen/margin_80px" />
+
+    <Button
+        android:text="@string/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_btn"
+        android:background="@drawable/btn_denglu"
+        android:layout_marginLeft="@dimen/gap_66_px"
+        android:layout_marginRight="@dimen/gap_66_px"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/txt_size_34px"
+        android:textStyle="bold"
+        android:onClick="@{loginActivity.bindClick}"/>
+
+</LinearLayout>
+</layout>

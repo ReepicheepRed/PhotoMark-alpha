@@ -1,0 +1,316 @@
+{
+    "project_type": "gradle",
+    "android_gradle_plugin_version": "2.2.2",
+    "freeline_gradle_plugin_version": "0.8.4",
+    "java_home": "D:\\Program Files\\Java\\jdk1.8.0_31",
+    "freeline_cache_dir": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu",
+    "auto_dependency": true,
+    "product_flavor": "",
+    "build_script": "gradlew.bat :Sticker:assembleDebug",
+    "build_script_work_directory": "",
+    "root_dir": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu",
+    "main_project_name": "Sticker",
+    "main_project_dir": "Sticker",
+    "build_directory": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\build",
+    "build_cache_dir": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\build\\freeline",
+    "build_tools_version": "23.0.1",
+    "sdk_directory": "D:\\Android\\sdk",
+    "build_tools_directory": "D:\\Android\\sdk\\build-tools\\23.0.1",
+    "compile_sdk_version": "android-23",
+    "compile_sdk_directory": "D:\\Android\\sdk\\platforms\\android-23",
+    "package": "com.zebra",
+    "debug_package": "com.zebra",
+    "main_manifest_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\AndroidManifest.xml",
+    "launcher": "com.zebra.MainActivity",
+    "apk_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\build\\outputs\\apk\\Sticker-debug.apk",
+    "extra_dep_res_paths": [
+        
+    ],
+    "exclude_dep_res_paths": [
+        
+    ],
+    "main_r_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\build\\generated\\source\\r\\debug\\R.java",
+    "use_jdk8": true,
+    "main_src_directory": [
+        "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\debug\\java",
+        "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\java"
+    ],
+    "main_res_directory": [
+        "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\debug\\res",
+        "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\res"
+    ],
+    "main_assets_directory": [
+        "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\debug\\assets",
+        "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\assets"
+    ],
+    "main_jni_directory": [
+        "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\debug\\jni",
+        "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\jni"
+    ],
+    "main_jniLibs_directory": [
+        "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\debug\\jniLibs",
+        "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\jniLibs"
+    ],
+    "project_source_sets": {
+        "Sticker": {
+            "main_src_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\debug\\java",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\java"
+            ],
+            "main_res_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\debug\\res",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\res"
+            ],
+            "main_assets_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\debug\\assets",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\assets"
+            ],
+            "main_jni_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\debug\\jni",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\debug\\jniLibs",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker\\src\\main\\AndroidManifest.xml"
+        },
+        "Gpu-Image": {
+            "main_src_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\src\\release\\java",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\src"
+            ],
+            "main_res_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\src\\release\\res",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\res"
+            ],
+            "main_assets_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\src\\release\\assets",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\assets"
+            ],
+            "main_jni_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\src\\release\\jni",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\src\\release\\jniLibs",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image\\AndroidManifest.xml"
+        },
+        "ImageViewTouch": {
+            "main_src_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\release\\java",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\main\\java"
+            ],
+            "main_res_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\release\\res",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\main\\res"
+            ],
+            "main_assets_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\release\\assets",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\main\\assets"
+            ],
+            "main_jni_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\release\\jni",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\main\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\release\\jniLibs",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch\\src\\main\\AndroidManifest.xml"
+        },
+        "Puzzle-M": {
+            "main_src_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\release\\java",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\main\\java"
+            ],
+            "main_res_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\release\\res",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\main\\res"
+            ],
+            "main_assets_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\release\\assets",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\main\\assets"
+            ],
+            "main_jni_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\release\\jni",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\main\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\release\\jniLibs",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M\\src\\main\\AndroidManifest.xml"
+        },
+        "gridImage": {
+            "main_src_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\release\\java",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\main\\java"
+            ],
+            "main_res_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\release\\res",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\main\\res"
+            ],
+            "main_assets_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\release\\assets",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\main\\assets"
+            ],
+            "main_jni_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\release\\jni",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\main\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\release\\jniLibs",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage\\src\\main\\AndroidManifest.xml"
+        },
+        "MakePoster": {
+            "main_src_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\release\\java",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\main\\java"
+            ],
+            "main_res_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\release\\res",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\main\\res"
+            ],
+            "main_assets_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\release\\assets",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\main\\assets"
+            ],
+            "main_jni_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\release\\jni",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\main\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\release\\jniLibs",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster\\src\\main\\AndroidManifest.xml"
+        },
+        "poster": {
+            "main_src_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\release\\java",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\main\\java"
+            ],
+            "main_res_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\release\\res",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\main\\res"
+            ],
+            "main_assets_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\release\\assets",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\main\\assets"
+            ],
+            "main_jni_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\release\\jni",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\main\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\release\\jniLibs",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster\\src\\main\\AndroidManifest.xml"
+        },
+        "puzzle": {
+            "main_src_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\release\\java",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\main\\java"
+            ],
+            "main_res_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\release\\res",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\main\\res"
+            ],
+            "main_assets_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\release\\assets",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\main\\assets"
+            ],
+            "main_jni_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\release\\jni",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\main\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\release\\jniLibs",
+                "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle\\src\\main\\AndroidManifest.xml"
+        }
+    },
+    "modules": [
+        {
+            "name": "Sticker",
+            "path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Sticker"
+        },
+        {
+            "name": "Gpu-Image",
+            "path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Gpu-Image"
+        },
+        {
+            "name": "ImageViewTouch",
+            "path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\ImageViewTouch"
+        },
+        {
+            "name": "Puzzle-M",
+            "path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\Puzzle-M"
+        },
+        {
+            "name": "gridImage",
+            "path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\gridImage"
+        },
+        {
+            "name": "MakePoster",
+            "path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\MakePoster"
+        },
+        {
+            "name": "poster",
+            "path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\poster"
+        },
+        {
+            "name": "puzzle",
+            "path": "E:\\AndroidDemo\\AndroidWaterMark-g\\WaterMark-meitu\\puzzle"
+        }
+    ],
+    "module_dependencies": {
+        "Sticker": [
+            "Gpu-Image",
+            "ImageViewTouch",
+            "Puzzle-M",
+            "gridImage",
+            "MakePoster",
+            "poster"
+        ],
+        "Gpu-Image": [
+            
+        ],
+        "ImageViewTouch": [
+            
+        ],
+        "Puzzle-M": [
+            "puzzle"
+        ],
+        "puzzle": [
+            
+        ],
+        "gridImage": [
+            
+        ],
+        "MakePoster": [
+            
+        ],
+        "poster": [
+            
+        ]
+    },
+    "databinding": [
+        {
+            "name": "Sticker",
+            "isLibrary": false,
+            "minSdkVersion": 15,
+            "packageName": "com.zebra"
+        }
+    ],
+    "databinding_modules": [
+        "Sticker"
+    ]
+}

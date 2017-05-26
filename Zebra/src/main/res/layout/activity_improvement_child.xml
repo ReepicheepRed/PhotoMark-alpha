@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_f5_c">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/actionbar_sns" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_100px"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/improve_child_et"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/margin_40px"
+        android:paddingLeft="@dimen/height_28px"
+        android:textSize="@dimen/txt_size_30px"
+        android:textColorHint="@color/text_9_c"
+        android:textColor="@color/text_3_c" />
+</LinearLayout>

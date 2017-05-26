@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/bar_black_c"
+    android:paddingTop="@dimen/margin_40px"
+    android:id="@+id/actionbar_ll">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/nav_icon_fanhui"
+        android:id="@+id/actionbar_back"
+        android:layout_weight="2"
+        android:text="@string/back"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textSize="@dimen/txt_size_32px"
+        android:paddingLeft="@dimen/height_28px"
+        android:paddingBottom="@dimen/gap_22_px"
+        android:paddingTop="@dimen/gap_22_px" />
+
+    <TextView
+        android:text="                                   "
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/actionbar_title"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:visibility="visible"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/txt_size_36px" />
+
+    <TextView
+        android:text="                "
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/actionbar_right"
+        android:layout_weight="2"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/bar_red_c"
+        android:paddingRight="@dimen/height_28px" />
+</LinearLayout>

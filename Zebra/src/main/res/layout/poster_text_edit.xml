@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/poster_bottom_panel">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/poster_et"
+            android:layout_centerInParent="false"
+            android:layout_centerHorizontal="false"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/poster_sure_btn"
+            android:layout_marginLeft="@dimen/gap_22_px"
+            android:paddingLeft="@dimen/margin_16px"
+            android:background="@drawable/wenzi_input_field_2x"
+            android:layout_marginTop="@dimen/margin_16px"
+            android:layout_marginBottom="@dimen/margin_16px"
+            android:inputType="text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/wenzi_btn_queren_2x"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/poster_sure_btn"
+            android:background="@null"
+            android:layout_marginRight="@dimen/margin_40px"
+            android:layout_marginLeft="@dimen/gap_38_px" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/shurukuang_icon_quxiao_2x"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/poster_et"
+            android:layout_alignEnd="@+id/poster_et"
+            android:id="@+id/poster_cancel_btn"
+            android:padding="@dimen/margin_20px" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_f8">
+
+        <TextView
+            android:text="@string/text_typeface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/poster_fonts_tv"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/selector_poster_typeface"
+            android:drawablePadding="@dimen/gap_8_px" />
+
+        <TextView
+            android:text="@string/text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/poster_text_color_tv"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/selector_poster_text_color"
+            android:drawablePadding="@dimen/height_8px" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/poster_rv" />
+
+</LinearLayout>
